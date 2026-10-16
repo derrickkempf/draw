@@ -22,7 +22,7 @@ export default defineEventHandler(async (event) => {
     })
   } catch (err) {
     // eslint-disable-next-line no-console
-    console.error('[dravver] drawing fetch failed:', err)
+    console.error('[draw] drawing fetch failed:', err)
     throw createError({ statusCode: 502, statusMessage: 'Could not load drawing' })
   }
 
