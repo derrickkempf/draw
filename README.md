@@ -1,4 +1,4 @@
-# dravver
+# Draw
 
 A drawing prompt engine for [Derrick Kempf](https://www.derrickkempf.com). A satirical fork of [vvriter](https://github.com/visualizevalue/vvriter).
 
@@ -92,7 +92,7 @@ Good prompts tend to be concepts, not scenes. Think VV-style: one idea, compress
 
 vvriter generates articles from Jack Butcher's archive using an MCP server and 50,000 tweets.
 
-dravver generates drawings from a single input field and one person's interpretation of it.
+Draw generates drawings from a single input field and one person's interpretation of it.
 
 The architecture is different. The spirit is similar. The turnaround time is not comparable and we ask that you not compare them.
 
