@@ -45,7 +45,7 @@ export function redisConfig() {
 
 function storageError(detail: string) {
   // eslint-disable-next-line no-console
-  console.error(`[dravver] storage unavailable: ${detail}`)
+  console.error(`[draw] storage unavailable: ${detail}`)
   return createError({ statusCode: 503, statusMessage: 'storage not configured', message: detail })
 }
 
@@ -54,7 +54,7 @@ function warnDevMemory() {
   if (warned) return
   warned = true
   // eslint-disable-next-line no-console
-  console.warn('[dravver] Redis not configured, using in-memory store (dev only).')
+  console.warn('[draw] Redis not configured, using in-memory store (dev only).')
 }
 
 export async function loadPrompts(): Promise<Prompt[]> {
