@@ -77,7 +77,7 @@ export default defineEventHandler(async (event) => {
       url = drawingRef(blob)
     } catch (err) {
       // eslint-disable-next-line no-console
-      console.error('[dravver] blob upload failed:', err)
+      console.error('[draw] blob upload failed:', err)
       throw createError({
         statusCode: 502,
         statusMessage: 'Blob upload failed',
