@@ -71,7 +71,7 @@ interface Prompt {
   drawing: string | null
 }
 
-useHead({ title: 'Drawn · dravver' })
+useHead({ title: 'Drawn · Draw' })
 
 const { data, refresh } = await useFetch<Prompt[]>('/api/prompts')
 const drawings = computed(() => (data.value || []).filter(p => !!p.drawing))

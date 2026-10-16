@@ -108,7 +108,7 @@
             <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
           </button>
 
-          <h2 id="info-title">About dravver</h2>
+          <h2 id="info-title">About Draw</h2>
           <p class="lede">You type the prompt. I draw it. By hand. You'll get it when you get it.</p>
 
           <h3>Why</h3>
@@ -232,7 +232,7 @@ async function submit() {
     } else {
       confirmation.value = 'something went sideways. try again?'
     }
-    console.error('[dravver] submit failed:', e)
+    console.error('[draw] submit failed:', e)
   } finally {
     submitting.value = false
   }

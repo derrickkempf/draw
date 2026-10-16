@@ -137,7 +137,7 @@ interface Prompt {
   id: string; text: string; date: string; status: string; drawing: string | null
 }
 
-useHead({ title: 'Admin · dravver' })
+useHead({ title: 'Admin · Draw' })
 
 const secretInput = ref('')
 const authed = ref(false)
